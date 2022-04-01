@@ -151,7 +151,30 @@
 }
 
    </style>
-<script>
+
+   <script src="/script.js">
+     
+   </script>
+</head>
+<body>
+<div class="clock">
+  
+<div class="outer-clock-face">
+<div class="marking marking-one"></div>
+<div class="marking marking-two"></div>
+<div class="marking marking-three"></div>
+<div class="marking marking-four"></div>
+<!--Inner clock-->
+<div class="inner-clock-face">
+  
+<div class="hand hour-hand"></div>
+    <div class="hand min-hand"></div>
+  <div class="hand second-hand"></div>
+         </div>
+         
+</div>
+</div>
+  <script>
 const secondHand = document.querySelector('.second-hand');
 const minsHand = document.querySelector('.min-hand');
 const hourHand = document.querySelector('.hour-hand');
@@ -176,27 +199,5 @@ setInterval(setDate, 1000);
 
 setDate()
 </script>
-   <script src="/script.js">
-     
-   </script>
-</head>
-<body>
-<div class="clock">
-  
-<div class="outer-clock-face">
-<div class="marking marking-one"></div>
-<div class="marking marking-two"></div>
-<div class="marking marking-three"></div>
-<div class="marking marking-four"></div>
-<!--Inner clock-->
-<div class="inner-clock-face">
-  
-<div class="hand hour-hand"></div>
-    <div class="hand min-hand"></div>
-  <div class="hand second-hand"></div>
-         </div>
-         
-</div>
-</div>
 </body>
 </html>
